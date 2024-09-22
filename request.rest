@@ -1,0 +1,85 @@
+##### Route Auth
+###
+POST http://localhost:5001/auth
+Content-Type: application/json
+
+{
+    "username": "Syahrun19",
+    "password": "@Syahrun19"
+}
+
+###
+POST http://localhost:5001/auth/create
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIxNGEwZGJjOC1hMjc2LTQ4ODMtYmM3Zi1lMzgwYzZlMmI0ZTgiLCJyb2xlIjoiTWFuYWdlciIsImlhdCI6MTcyNjk4MTQxOSwiZXhwIjoxNzI3MDY3ODE5fQ.HNJDmvkNf50O7x_fH_BdGHnFkNkVtgTv-LobfD3u1Os
+Content-Type: application/json
+
+{
+    "username": "Syahrun19",
+    "fullname": "Syahrun Fathan Hidayah",
+    "password": "@Syahrun19",
+    "role": "Owner"
+}
+
+###
+DELETE http://localhost:5001/auth/14a0dbc8-a276-4883-bc7f-e380c6e2b4e8
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIxNGEwZGJjOC1hMjc2LTQ4ODMtYmM3Zi1lMzgwYzZlMmI0ZTgiLCJyb2xlIjoiT3duZXIiLCJpYXQiOjE3MjY5ODQ0NDAsImV4cCI6MTcyNzA3MDg0MH0.3U4JlthWbQD8nxQ-YQTuSLgAzKijXCHkkctK5oDHeOM
+
+##### Route Cafe
+###
+GET http://localhost:5001/cafe
+
+###
+POST http://localhost:5001/cafe
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIxNGEwZGJjOC1hMjc2LTQ4ODMtYmM3Zi1lMzgwYzZlMmI0ZTgiLCJyb2xlIjoiT3duZXIiLCJpYXQiOjE3MjY5ODQ0NDAsImV4cCI6MTcyNzA3MDg0MH0.3U4JlthWbQD8nxQ-YQTuSLgAzKijXCHkkctK5oDHeOM
+
+{
+    "name": "Cafe B",
+    "address": "Jl. Soekarno Hatta",
+    "phoneNumber": "081244423801"
+}
+
+###
+PUT http://localhost:5001/cafe/3714f5f4-8686-4a94-a2e5-669518db6f58
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIxNGEwZGJjOC1hMjc2LTQ4ODMtYmM3Zi1lMzgwYzZlMmI0ZTgiLCJyb2xlIjoiT3duZXIiLCJpYXQiOjE3MjY5ODQ0NDAsImV4cCI6MTcyNzA3MDg0MH0.3U4JlthWbQD8nxQ-YQTuSLgAzKijXCHkkctK5oDHeOM
+
+{
+    "name": "Cafe A",
+    "address": "Jl. Wr Supratman",
+    "phoneNumber": "081244423801"
+}
+
+###
+DELETE http://localhost:5001/cafe/3714f5f4-8686-4a94-a2e5-669518db6f58
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIxNGEwZGJjOC1hMjc2LTQ4ODMtYmM3Zi1lMzgwYzZlMmI0ZTgiLCJyb2xlIjoiT3duZXIiLCJpYXQiOjE3MjY5ODQ0NDAsImV4cCI6MTcyNzA3MDg0MH0.3U4JlthWbQD8nxQ-YQTuSLgAzKijXCHkkctK5oDHeOM
+
+##### Route Menu
+###
+GET http://localhost:5001/menu
+
+###
+POST http://localhost:5001/menu
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIxNGEwZGJjOC1hMjc2LTQ4ODMtYmM3Zi1lMzgwYzZlMmI0ZTgiLCJyb2xlIjoiT3duZXIiLCJpYXQiOjE3MjY5ODQ0NDAsImV4cCI6MTcyNzA3MDg0MH0.3U4JlthWbQD8nxQ-YQTuSLgAzKijXCHkkctK5oDHeOM
+
+{
+    "name": "Nasi Ayam Penyet",
+    "price": 25000,
+    "recommended": false
+}
+
+###
+PUT http://localhost:5001/menu/137c2f0d-6ee1-444e-92e8-52c331051b45
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIxNGEwZGJjOC1hMjc2LTQ4ODMtYmM3Zi1lMzgwYzZlMmI0ZTgiLCJyb2xlIjoiT3duZXIiLCJpYXQiOjE3MjY5ODQ0NDAsImV4cCI6MTcyNzA3MDg0MH0.3U4JlthWbQD8nxQ-YQTuSLgAzKijXCHkkctK5oDHeOM
+
+{
+    "name": "Nasi Goreng",
+    "price": 22000,
+    "recommended": true
+}
+
+###
+DELETE http://localhost:5001/menu/137c2f0d-6ee1-444e-92e8-52c331051b45
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiIxNGEwZGJjOC1hMjc2LTQ4ODMtYmM3Zi1lMzgwYzZlMmI0ZTgiLCJyb2xlIjoiT3duZXIiLCJpYXQiOjE3MjY5ODQ0NDAsImV4cCI6MTcyNzA3MDg0MH0.3U4JlthWbQD8nxQ-YQTuSLgAzKijXCHkkctK5oDHeOM
