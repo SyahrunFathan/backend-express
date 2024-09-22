@@ -4,7 +4,7 @@
 
 1. Clone proyek:
 ```bash
-git clone https://github.com/SyahrunFathan/backend-express
+git clone https://github.com/SyahrunFathan/backend-express.git
 ```
  
 2. Jalankan Perintah Berikut Untuk Menginstal Dependensi:
@@ -38,5 +38,16 @@ const db = new Sequelize("db_test", "root", "", {
   dialect: "mysql",
   host: "localhost",
 });
+```
 
+5. Install nodemon secara global:
+
+```bash
+npm install -g nodemon
+```
+
+6. Jalankan project:
+```bash
+npm start
+```
 
