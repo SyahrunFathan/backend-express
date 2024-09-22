@@ -63,4 +63,4 @@ npm install -g nodemon
 npm start
 ```
 
-7. Buka file **request.rest** untuk melihat menguji API
+7. Buka file **request.rest** untuk menguji API
