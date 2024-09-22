@@ -5,7 +5,7 @@
 - **Express**
 - **MySQL**
 
-## Instalasi Library
+## Instalasi
 
 1. Clone proyek:
 ```bash
