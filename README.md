@@ -3,14 +3,16 @@
 ## Instalasi Library
 
 1. Clone proyek:
-```github
+```bash
 git clone https://github.com/SyahrunFathan/backend-express
+```
  
 2. Jalankan Perintah Berikut Untuk Menginstal Dependensi:
 
 ```bash
 npm install
 ```
+
 3. Buat file .env isi konfigurasi berikut:
 
 ```
