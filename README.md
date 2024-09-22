@@ -1,5 +1,10 @@
 # backend-express
 
+## Teknologi yang Digunakan
+- **Node.js**
+- **Express**
+- **MySQL**
+
 ## Instalasi Library
 
 1. Clone proyek:
@@ -50,10 +55,3 @@ npm install -g nodemon
 ```bash
 npm start
 ```
-
-## Teknologi yang Digunakan
-- **Node.js**
-- **Express**
-
-Proyek ini dilisensikan di bawah [MIT License](LICENSE).
-
