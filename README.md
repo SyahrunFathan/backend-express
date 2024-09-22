@@ -4,6 +4,8 @@
 - **Node.js**
 - **Express**
 - **MySQL**
+- **Jsonwebtoken**
+- **Bcryptjs**
 
 ## Instalasi
 
