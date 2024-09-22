@@ -27,4 +27,4 @@ app.use("/menu", RouteMenu);
 app.use("/auth", RouteAuth);
 app.use("/cafe", RouteCafe);
 
-app.listen(5001, () => console.log("Server running..."));
+app.listen(5001, () => console.log("Server running at port 5001..."));
