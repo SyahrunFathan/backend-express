@@ -62,3 +62,5 @@ npm install -g nodemon
 ```bash
 npm start
 ```
+
+7. Buka file **request.rest** untuk melihat menguji API
