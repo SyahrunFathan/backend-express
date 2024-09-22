@@ -16,6 +16,8 @@ app.use(cookieParser());
 
 try {
   db.authenticate();
+  console.log("Database connected....");
+
   // createModel.sync();
 } catch (error) {
   console.log(error);
