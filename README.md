@@ -51,3 +51,9 @@ npm install -g nodemon
 npm start
 ```
 
+## Teknologi yang Digunakan
+- **Node.js**
+- **Express**
+
+Proyek ini dilisensikan di bawah [MIT License](LICENSE).
+
