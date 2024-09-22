@@ -2,12 +2,16 @@
 
 ## Instalasi Library
 
-1. Jalankan Perintah Berikut Untuk Menginstal Dependensi:
+1. Clone proyek:
+```github
+git clone https://github.com/SyahrunFathan/backend-express
+ 
+2. Jalankan Perintah Berikut Untuk Menginstal Dependensi:
 
 ```bash
 npm install
 ```
-2. Buat file .env isi konfigurasi berikut:
+3. Buat file .env isi konfigurasi berikut:
 
 ```
 ACCESS_TOKEN=f7ZJusqwe4YiSH3zS8wuvFkixSwRdpvSAmhZDRu7kSeg4BqSO1MTLdLFhilqbZcq
@@ -15,7 +19,7 @@ DATABASE="db_test"
 DB_USER="root"
 DB_PASSWORD=""
 ```
-3. Jika Cara di atas gagal pergi ke folder src/configs/Database.js, aktikan cara ke dua dan matikan cara pertama
+4. Jika Cara di atas gagal pergi ke folder src/configs/Database.js, aktikan cara ke dua dan matikan cara pertama
 Codingan :
 ```javascript
 // Cara 1
