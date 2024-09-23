@@ -31,8 +31,7 @@ DB_USER="root"
 DB_PASSWORD=""
 ```
 
-4. Jika Cara di atas gagal pergi ke folder src/configs/Database.js, aktikan cara ke dua dan matikan cara pertama
-   Codingan :
+4. Jika Cara di atas gagal pergi ke folder src/configs/Database.js, aktifkan cara ke dua dan matikan cara pertama, Contoh Codingan :
 
 ```javascript
 // Cara 1
